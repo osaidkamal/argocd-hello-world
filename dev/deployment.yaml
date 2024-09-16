@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: nanajanashia/argocd-app:1.2
+        image: bitnami/wordpress:latest
         ports:
         - containerPort: 9090
