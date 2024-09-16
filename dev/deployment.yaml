@@ -16,4 +16,4 @@ spec:
       - name: myapp
         image: testcontainers/helloworld
         ports:
-        - containerPort: 9090
+        - containerPort: 8081
