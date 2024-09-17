@@ -15,5 +15,3 @@ spec:
       containers:
       - name: myapp
         image: testcontainers/helloworld
-        ports:
-        - containerPort: 80
