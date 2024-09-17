@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: argo
 spec:
   selector:
     matchLabels:
-      app: myapp
+      app: argo
   replicas: 2
   template:
     metadata:
       labels:
-        app: myapp
+        app: argo
     spec:
       containers:
       - name: myapp
         image: testcontainers/helloworld
         ports:
-        - containerPort: 8081
+        - containerPort: 8080
